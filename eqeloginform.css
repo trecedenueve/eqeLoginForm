@@ -1,0 +1,35 @@
+#eqe-loginForm {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 1px solid black
+}
+
+#eqe-loginForm input{
+    padding: 0.2rem;
+}
+
+.login-remember label{
+    display: flex;
+    flex-direction: row;
+} 
+
+#rememberme{
+    margin-right: 0.3rem;
+    font-size: 2rem;
+}
+
+input#rememberme{
+    width: 1rem;
+    
+}
+
+[type="submit"] {
+    padding: 1rem;
+    margin: 0 2rem;
+    width: 8rem;
+}
+
+[type="submit"]:hover{
+    cursor: pointer;
+}
+
